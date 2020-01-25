@@ -1,0 +1,8 @@
+<div class="content" [ngStyle]="content">
+	<img [attr.src]="url" [attr.alt]="alttext" [ngStyle]="image"/>
+	<div class="info" [ngStyle]="info">
+		<h1 [ngStyle]="headlineStyle">{{this.headline}}</h1>
+		<p class="block" [ngStyle]="block">{{this.text}}</p>
+		<p class="block" [ngStyle]="block">&copy; {{this.name}} - {{this.year}}</p>
+	</div>
+</div>
